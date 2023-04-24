@@ -1,0 +1,25 @@
+{
+    "name": "javiertapia/chords-ml-php",
+    "description": "",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^10.1",
+        "phpstan/phpstan": "^1.10",
+        "thecodingmachine/phpstan-strict-rules": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Javiertapia\\ChordsMlPhp\\": "src/",
+            "Javiertapia\\ChordsMlPhpTests\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Javier Tapia",
+            "email": "javier.tapia.d@gmail.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
