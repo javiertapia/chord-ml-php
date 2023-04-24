@@ -1,0 +1,18 @@
+includes:
+    - vendor/thecodingmachine/phpstan-strict-rules/phpstan-strict-rules.neon
+
+parameters:
+	phpVersion: 80200
+	polluteScopeWithLoopInitialAssignments: false
+	polluteScopeWithAlwaysIterableForeach: false
+	checkAlwaysTrueCheckTypeFunctionCall: true
+	checkAlwaysTrueInstanceof: true
+	checkAlwaysTrueStrictComparison: true
+	checkExplicitMixedMissingReturn: true
+	checkFunctionNameCase: true
+	reportMaybesInMethodSignatures: true
+	reportStaticMethodSignatures: true
+	reportUnmatchedIgnoredErrors: false
+	checkMissingIterableValueType: false
+	ignoreErrors:
+	    - '/Exception::\$message has no type specified./'
